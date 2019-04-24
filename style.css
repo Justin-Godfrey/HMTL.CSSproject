@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+nav {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: o 4em;
+}
+
+.brand {
+    text-transform: capitalize;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 4em;
+    font-size: 12px;
+}
+
+.hero {
+    height: 90vh;
+    background: #E1E7FA;
+    margin: 0 4em;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    width: 600px;
+    margin-left: 15em;
+}
+
+.hero-text h1 {
+    margin: 0;
+    font-size: 70px;
+    font-family: Eina03,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
+}
+
+.hero-text p {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.promo {
+    margin: 15em 4em 0;
+    height: 60vh;
+    display: flex;
+}
+
+.owl-img {
+    margin-left: 300px;
+    height: 400px;
+    width: 400px;
+}
+
+.promo .left {
+    width: 40%;
+    margin-right: 1em;
+}
+
+.promo .right {
+    width: 60%;
+    margin-left: 1em;
+    background: #FBFBFB;
+    text-align: left;
+}
+
+.promo-text {
+    width: 650px;
+}
+
+.promo-text h1 {
+    margin: 1em;
+    font-size: 60px;
+    font-family: Eina03,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
+}
+
+.promo-text p {
+    margin-left: 65px;
+    font-size: 18px;
+}
